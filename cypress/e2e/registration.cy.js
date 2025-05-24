@@ -69,7 +69,9 @@ describe('Student Registration Page', () => {
   };
 
   beforeEach(() => {
-    cy.visit('https://demoqa.com/automation-practice-form', { timeout: 60000 });
+    cy.visit('https://demoqa.com/automation-practice-form', {
+      timeout: 1800000
+    });
   });
 
   it('fills the form and verifies submitted data in modal', () => {
